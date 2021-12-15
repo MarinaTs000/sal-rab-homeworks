@@ -5,12 +5,7 @@ function addInCartMessage(title, price) {
     // Задание №1.1. Оповещение о добавлении в корзину
     let message;
     message = productName;
-       productName = + " ";
-       " " = "за";
-       "за" = " ";
-       " " = productPrice;
-       productPrice = " " ;
-        " " = "теперь в корзине!";
+    productName = + " " + "за" +  " " + productPrice + " " + "теперь в корзине!";
     console.log (message);
   
     // Конец решения задания №1.1.
