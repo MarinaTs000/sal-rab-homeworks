@@ -3,11 +3,19 @@ function addInCartMessage(title, price) {
     let productPrice = price;
 
     // Задание №1.1. Оповещение о добавлении в корзину
-    let message;
-    message = productName;
-    productName = + " " + "за" +  " " + productPrice + " " + "теперь в корзине!";
-    console.log (message);
-  
+
+    let message;  //Cоздайте переменную message
+     message = productName + ' ' + 'за' + ' ' + productPrice + ' ' + 'теперь в корзине!';
+     console.log(message);
+      //Присвойте переменной message значение переменной productName
+         //Добавьте в конец переменной message пробел
+         //Добавьте в конец переменной message текст 'за'
+          //добавьте в конец переменной message пробел
+    //Добавьте в конец переменной message значение переменной productPrice
+    //Добавьте в конец переменной message пробел
+    //Добавьте в конец переменной message текст 'теперь в корзине!'
+    //Выведите переменную message в консоль
+
     // Конец решения задания №1.1.
 
     return message;
