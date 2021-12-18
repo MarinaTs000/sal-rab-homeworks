@@ -3,39 +3,25 @@ function addInCartMessage(title, price) {
     let productPrice = price;
 
     // Задание №1.1. Оповещение о добавлении в корзину
-
-    
-     //Cоздайте переменную message
-     let message;
-     message = message + " " ;
-     message = message + " за " ;
-     message = productName;
-     console.log(message);
-     //Присвойте переменной message значение переменной productName
-     //Добавьте в конец переменной message пробел
-     //Добавьте в конец переменной message текст 'за'
-     //добавьте в конец переменной message пробел
-    //Добавьте в конец переменной message значение переменной productPrice
-    //Добавьте в конец переменной message пробел
-    //Добавьте в конец переменной message текст 'теперь в корзине!'
-    //Выведите переменную message в консоль
-
+     let message;  //Cоздайте переменную message
+         message = productName;  //Присвойте переменной message значение переменной productName
+             message = message + " " ;   //Добавьте в конец переменной message пробел
+             message = message + "за" ;  //Добавьте в конец переменной message текст 'за'
+             message = message + " " ;  //добавьте в конец переменной message пробел
+                  message = + productPrice ;  //Добавьте в конец переменной message значение переменной productPrice
+                  message = + " " ;  //Добавьте в конец переменной message пробел
+                  message = + "теперь в корзине!" ;  //Добавьте в конец переменной message текст 'теперь в корзине!'
+         console.log(message);   //Выведите переменную message в консол
     // Конец решения задания №1.1.
-
     return message;
 }
 
 function addInCartCountChange(value) {
 
     // Задание №1.2. Увеличение количества в корзине
-    let oldValue = value;
-    let newValue = {oldValue + 1};
-    
-
-    // создайте переменную newValue
-    // присвойте ей значение oldValue
-    // увеличьте значение newValue на 1
-
+    let newValue ;  // создайте переменную newValue
+    newValue = oldValue;  // присвойте ей значение oldValue
+    newValue = oldValue + "1" ;  // увеличьте значение newValue на 1
     // Конец решения задания №1.2.
 
     return newValue;
