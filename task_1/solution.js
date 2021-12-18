@@ -13,7 +13,7 @@ function addInCartMessage(title, price) {
                   message = + "'теперь в корзине!'" ;  //Добавьте в конец переменной message текст 'теперь в корзине!'
          console.log(message);   //Выведите переменную message в консол
     // Конец решения задания №1.1.
-    return message;
+     return message;
 }
 
 function addInCartCountChange(value) {
